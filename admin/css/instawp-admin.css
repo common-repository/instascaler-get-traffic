@@ -1,0 +1,686 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  min-height: calc(100vh - 200px);
+  margin-left: -20px;
+  font-family: Lato, sans-serif;
+  background-color: #fff;
+}
+
+.instascaler-image {
+  width: 35%;
+  height: calc(100vh - 100px);
+  background-image: url("../images/signup-img.png");
+  background-size: cover;
+}
+.label-required { 
+  color: #df4c4c;
+}
+.login-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-message p {
+  color: #878e9b;
+  margin-top: 0;
+  font-size: 18px;
+  width: 65%;
+  font-weight: 600;
+}
+
+.input-label {
+  text-transform: uppercase;
+  color: #676b6e;
+  font-size: .875rem;
+}
+
+.login-message h1 {
+  font-size: 35px !important;
+  line-height: 1.2;
+  font-weight: 549;
+  color: rgb(53, 63, 82);
+}
+
+.form-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.iframe-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.signin-btn {
+  text-transform: inherit !important;
+  margin-right: 20px;
+  background-color: #c5251f !important;
+}
+
+.btn-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.privacy-link {
+  margin-left: 30px;
+}
+
+.password-input-container {
+  position: relative;
+}
+.password-input {
+
+}
+.password-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #e7e7e7;
+}
+.signup-footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #f6f7fb;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.external-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.external-links p {
+  margin-top: 10px;
+}
+
+.createAccount {
+  display: block;
+}
+
+#sign-in-form{
+  width: 55%;
+}
+
+#dolly {
+  display: none !important;
+}
+.form-container a {
+  color: #3ac2fd;
+  font-weight: 600;
+  font-size: 14px;
+}
+.error-message {
+  display: none;
+}
+.form-container p {
+  color: #878e9b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*! CSS Used from: https://dashboard-testing.instascaler.com/styles.css */
+
+::-moz-selection {
+  background: #39f;
+}
+
+::selection {
+  background: #39f;
+}
+
+.uk-margin-medium-top {
+  margin-top: 40px !important;
+}
+
+.uk-form-label {
+  font-weight: 600 !important; 
+}
+
+.uk-input {
+  font-size: 16px !important;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    background: 0 0 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+
+._2dmJpinx5w0oqdltX4QKfA {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 40px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: #fff;
+  border: none;
+  box-sizing: border-box;
+  transition: color .2s cubic-bezier(.68, -.01, .34, 1.01);
+  background: transparent;
+}
+
+._2dmJpinx5w0oqdltX4QKfA:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: #df4c4c;
+  border-radius: 999px;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  transition: all .2s cubic-bezier(.68, -.01, .34, 1.01);
+}
+
+._2dmJpinx5w0oqdltX4QKfA:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  margin: -15px 0 0 -15px;
+  pointer-events: none;
+  border: 2px solid hsla(0, 0%, 100%, .3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  -webkit-animation: spin .7s cubic-bezier(.57, -.59, .4, 1.64) infinite;
+  animation: spin .7s cubic-bezier(.57, -.59, .4, 1.64) infinite;
+  transition: all .1s;
+}
+
+._2dmJpinx5w0oqdltX4QKfA._1VwRz6D0-Lvmb12IJ7U4CQ {
+  width: 100%;
+}
+
+::-moz-selection {
+  background: #df4c4c;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #df4c4c;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  color: #9ca1a6;
+}
+
+/*! CSS Used keyframes */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    tranform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    tranform: rotate(1turn);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    tranform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    tranform: rotate(1turn);
+  }
+}
+
+/*! CSS Used from: http://localhost:9000/wp-admin/load-styles.php?c=1&dir=ltr&load%5B%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5B%5D=,site-icon,l10n,buttons,wp-auth-check&ver=4.9.8 ; media=all */
+
+@media all {
+  div {
+    outline: 0;
+  }
+  h1 {
+    color: #23282d;
+  }
+  p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+  }
+  h1 {
+    display: block;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 2em;
+    margin: .67em 0;
+  }
+  @media screen and (max-width:782px) {
+    body * {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #72777c;
+  }
+  ::-moz-placeholder {
+    color: #72777c;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: #72777c;
+  }
+}
+
+/*! CSS Used from: http://localhost:9000/wp-content/plugins/instawp/admin/css/instawp-admin.css?ver=1.0.0 ; media=all */
+
+@media all {
+  ::-moz-selection {
+    background: #39f;
+  }
+  ::selection {
+    background: #39f;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      background: 0 0 !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  }
+  ::-moz-selection {
+    background: #df4c4c;
+    color: #fff;
+    text-shadow: none;
+  }
+  ::selection {
+    background: #df4c4c;
+    color: #fff;
+    text-shadow: none;
+  }
+  ::-webkit-input-placeholder {
+    color: #9ca1a6;
+  }
+}
+
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css */
+
+p {
+  margin: 0 0 20px 0;
+}
+
+*+p {
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #333;
+  text-transform: none;
+}
+
+h1 {
+  font-size: 2.23125rem;
+  line-height: 1.2;
+}
+
+@media (min-width:960px) {
+  h1 {
+    font-size: 2.625rem;
+  }
+}
+
+::selection {
+  background: #39f;
+  color: #fff;
+  text-shadow: none;
+}
+
+.uk-text-center {
+  text-align: center !important;
+}
+
+@media print {
+  *,
+  ::after,
+  ::before {
+    background: 0 0 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+/*! CSS Used from: https://dashboard-testing.instascaler.com/styles.css */
+
+p {
+  margin: 0 0 20px;
+}
+
+*+p {
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  color: #333;
+  text-transform: none;
+}
+
+h1 {
+  font-size: 2.23125rem;
+  line-height: 1.2;
+}
+
+@media (min-width:960px) {
+  h1 {
+    font-size: 2.625rem;
+  }
+}
+
+::-moz-selection {
+  background: #39f;
+}
+
+::selection {
+  background: #39f;
+}
+
+.uk-text-center {
+  text-align: center !important;
+}
+
+@media print {
+  *,
+  :after,
+  :before {
+    background: 0 0 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+::-moz-selection {
+  background: #df4c4c;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #df4c4c;
+  color: #fff;
+  text-shadow: none;
+}
+
+h1 {
+  font-family: Lato, sans-serif;
+}
+
+p {
+  color: #353f52;
+}
+
+::-webkit-input-placeholder {
+  color: #9ca1a6;
+}
+
+.signup-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-heading h1 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #353f52;
+}
+
+@media (min-width:640px) {
+  .signup-heading h1 {
+    font-size: 30px;
+  }
+}
+
+.signup-heading .subheading {
+  font-size: 14px;
+  color: #878e9b;
+  margin-top: 0;
+  width: 90%;
+}
+
+@media (min-width:640px) {
+  .signup-heading .subheading {
+    font-size: 18px;
+    width: 49%;
+  }
+}
+
+.signup-form-container p {
+  color: #878e9b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media (max-width:320px) {
+  .signup-form-container p {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*! CSS Used fontfaces */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_FQft1dw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwft.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAUi-qJCY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwft.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_FQft1dw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_Gwft.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/*! CSS Used from: https://dashboard-testing.instascaler.com/styles.css */
+::-moz-selection{background:#39f;}
+::selection{background:#39f;}
+.uk-icon{margin:0;border:none;border-radius:0;overflow:visible;font:inherit;color:inherit;text-transform:none;padding:0;background-color:transparent;display:inline-block;fill:currentcolor;line-height:0;}
+.uk-icon::-moz-focus-inner{border:0;padding:0;}
+.uk-icon-image{width:20px;height:20px;background-position:50% 50%;background-repeat:no-repeat;background-size:contain;vertical-align:middle;}
+@media print{
+*,:after,:before{background:0 0!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;}
+}
+::-moz-selection{background:#df4c4c;color:#fff;text-shadow:none;}
+::selection{background:#df4c4c;color:#fff;text-shadow:none;}
+::-webkit-input-placeholder{color:#9ca1a6;}
+.icon-eye{background-image:url(https://dashboard-testing.instascaler.com/48318a525c0e0382eea01ba5dac983fb.png);}
+
+.page-container {
+  position: relative;
+}
+
+#dashboard-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
